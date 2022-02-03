@@ -3,27 +3,21 @@ import Link from 'next/link';
 export default function Navbar(){
     return(
         <>
-     <nav>
-     <div className='place-content-center w-40 fixed top-0 left-0 right-0'>
-        <Image src={Logo} className=""></Image>
-        </div>
-      <div>
-        
-        <ul className="flex gap-5 bg-gray-800 text-white h-10 p-2">
-          <li><Link href='/' ><a>Home</a></Link></li>
-          <li><Link href='/Members'><a>Members</a></Link></li>
-          <li><Link href='/Roadmap'><a>Roadmap</a></Link></li>
-          <li><Link href='/About'><a>About</a></Link></li>
-        </ul>
-        <div className='place-content-center w-40 fixed top-0 left-0 right-0'>
-        </div>
+          <section classNameName="et-hero-tabs">
+            <div classNameName='bg-gray-500'>
+    <h1>STICKY SLIDER NAV</h1>
+    <h3>Sliding content with sticky tab nav</h3></div>
+    <div className="et-hero-tabs-container bg-gray-500">
+      <a className="et-hero-tab" href="#tab-es6">Information</a>
+      <a className="et-hero-tab" href="#tab-flexbox">Members</a>
+      <a className="et-hero-tab" href="#tab-react">Roadmap</a>
+      <a className="et-hero-tab" href="#tab-angular">About Us</a>
+      <a className="et-hero-tab" href="#tab-other">Contact</a>
+      <span className="et-hero-tab-slider"></span>
+    </div>
+  </section>
 
-      </div>
   
-    </nav>
-    <div className='typing'>
-      This is a typing demo.
-      </div>
         </>
     )
 }
