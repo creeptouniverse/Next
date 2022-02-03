@@ -1,0 +1,4 @@
+.typing{
+    width: 50%;
+    animation: typing 5s steps(50), blink .5s;
+}
