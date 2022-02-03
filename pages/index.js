@@ -11,6 +11,7 @@ export default function Home() {
     <Navbar />
     <h1>hello</h1>
     <h2>hi</h2>
+    <h3>Hello</h3>
     </>
   )
 }
