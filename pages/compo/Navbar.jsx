@@ -8,7 +8,6 @@ export default function Navbar(){
             <div className=''>
 
     <h1>CreepTo</h1>
-    <Image src={Logo}></Image>
     <h3>Sliding content with sticky tab nav</h3></div>
     <div className="et-hero-tabs-container">
       <a className="et-hero-tab" href="#tab-es6">Information</a>
