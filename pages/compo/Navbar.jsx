@@ -9,12 +9,13 @@ export default function Navbar(){
 
     <h1>CreepTo</h1>
     <h3>Sliding content with sticky tab nav</h3></div>
-    <div className="et-hero-tabs-container">
+    <div className="fixed et-hero-tabs-container">
       <a className="et-hero-tab" href="#tab-es6">Information</a>
       <a className="et-hero-tab" href="#tab-flexbox">Members</a>
       <a className="et-hero-tab" href="#tab-react">Roadmap</a>
       <a className="et-hero-tab" href="#tab-angular">About Us</a>
       <a className="et-hero-tab" href="#tab-other">Contact</a>
+
       <span className="et-hero-tab-slider"></span>
     </div>
   </section>
