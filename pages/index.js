@@ -15,7 +15,11 @@ import Contact from './compo/Contact'
 export default function Home() {
   return (
     <>
-    <Navbar />
+ <Head>
+        <title>My page title</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+      <Navbar />
 
   <main className="et-main">
     <Information />
@@ -24,12 +28,13 @@ export default function Home() {
     <About />
  <Contact />
   </main>
-  <div className='fixed shadow-indigo-500/50 bottom-0 p-2 m-2 rounded right-0 bg-blue-800 text-white'>
+  <div className='fixed shadow-lg hover:shadow-indigo-500/50 bottom-0 p-2 m-2 rounded right-0 hover:bg-blue-900 bg-blue-800 text-white'>
 <Link href="/">
   <a>
   <button className=''>Home</button></a>
 </Link>
   </div>
+  
     </>
   )
 }
