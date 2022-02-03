@@ -6,7 +6,7 @@ export default function Navbar(){
           <section className="et-hero-tabs">
             <div className=''>
 
-    <h1>CreepTo universe</h1>
+    <h1>CreepTo</h1>
     <h3>Sliding content with sticky tab nav</h3></div>
     <div className="et-hero-tabs-container">
       <a className="et-hero-tab" href="#tab-es6">Information</a>
