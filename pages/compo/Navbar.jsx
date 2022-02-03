@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Logo from '../image/Logo.png'
 export default function Navbar(){
     return(
         <>
@@ -17,7 +16,6 @@ export default function Navbar(){
           <li><Link href='/About'><a>About</a></Link></li>
         </ul>
         <div className='place-content-center w-40 fixed top-0 left-0 right-0'>
-        <Image src={Logo} className=""></Image>
         </div>
 
       </div>

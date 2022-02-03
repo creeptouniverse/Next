@@ -9,9 +9,6 @@ export default function Home() {
   return (
     <>
     <Navbar />
-    <h1>hello</h1>
-    <h2>hi</h2>
-    <h3>Hello</h3>
     </>
   )
 }
