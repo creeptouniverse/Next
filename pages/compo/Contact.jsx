@@ -1,4 +1,4 @@
-export default function(){
+export default function Contact(){
     return(
         <section className="et-slide" id="tab-other">
         <h1>Contact</h1>
