@@ -11,9 +11,6 @@ export default function Home() {
   return (
     <>
     <section>
-    <Image src="/image.jpg" width={200} height={200}>
-
-    </Image>
    <Navbar />
    <Information />
    <Members />
