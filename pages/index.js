@@ -11,6 +11,12 @@ export default function Home() {
   return (
     <>
     <section>
+    <Image
+        alt="Next.js logo"
+        src="https://assets.vercel.com/image/upload/v1538361091/repositories/next-js/next-js-bg.png"
+        width={1200}
+        height={400}
+      />
    <Navbar />
    <Information />
    <Members />
@@ -18,7 +24,7 @@ export default function Home() {
    <Aboutus />
    <Contact />
    </section>
-   <div className="fixed p-1 m-1 bottom-0 flex w-full bg-black">
+   <div className="fixed p-1 bottom-0 flex w-full bg-black">
       <a className="et-hero-tab" href="#information">Information</a>
       <a className="et-hero-tab" href="#members">Members</a>
       <a className="et-hero-tab" href="#roadmap">Roadmap</a>
