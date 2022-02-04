@@ -11,7 +11,7 @@ export default function Navbar(){
     <h1>CREEPTO UNIVERSE</h1>
 
     <h3>Sliding content with sticky tab nav</h3></div>
-    <div className="fixed et-hero-tabs-container">
+    <div className="fixed bottom-0 et-hero-tabs-container">
       <a className="et-hero-tab" href="#tab-es6">Information</a>
       <a className="et-hero-tab" href="#tab-flexbox">Members</a>
       <a className="et-hero-tab" href="#tab-react">Roadmap</a>
