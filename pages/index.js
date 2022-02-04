@@ -18,7 +18,7 @@ export default function Home() {
    <Aboutus />
    <Contact />
    </section>
-   <div className="fixed bottom-0 flex w-full bg-black">
+   <div className="fixed p-1 m-1 bottom-0 flex w-full bg-black">
       <a className="et-hero-tab" href="#information">Information</a>
       <a className="et-hero-tab" href="#members">Members</a>
       <a className="et-hero-tab" href="#roadmap">Roadmap</a>
