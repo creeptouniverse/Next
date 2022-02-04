@@ -22,7 +22,7 @@ export default function Navbar(){
   </div>
 </div>
 
-    <h3>Sliding content with sticky tab nv</h3></div>
+    <h3>Sliding content with sticky tab nav</h3></div>
     <div className="fixed et-hero-tabs-container">
       <a className="et-hero-tab" href="#tab-es6">Information</a>
       <a className="et-hero-tab" href="#tab-flexbox">Members</a>
