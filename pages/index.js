@@ -11,12 +11,9 @@ export default function Home() {
   return (
     <>
     <section>
-    <Image
-        alt="Next.js logo"
-        src="https://assets.vercel.com/image/upload/v1538361091/repositories/next-js/next-js-bg.png"
-        width={1200}
-        height={400}
-      />
+    <Image src="/image.jpg" width={200} height={200}>
+
+    </Image>
    <Navbar />
    <Information />
    <Members />
