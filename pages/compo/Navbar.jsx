@@ -8,7 +8,7 @@ export default function Navbar(){
 
     <h1>CREEPTO UNIVERSE</h1>
     <div>
-
+<Image src="/Dark.png"></Image>
     </div>
 
     <h3>Sliding content with sticky tab nav</h3></div>
