@@ -1,8 +1,8 @@
 export default function Information(){
     return(
-        <section className="et-slide" id="tab-es6">
-        <h1>INformation</h1>
-        <h3>something about es6</h3>
-      </section>
+        <div className="sections" id="information">
+            <h1>Information</h1>
+        </div>
+
     )
 }

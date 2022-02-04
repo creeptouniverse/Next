@@ -1,8 +1,7 @@
 export default function Contact(){
     return(
-        <section className="et-slide" id="tab-other">
-        <h1>Contact</h1>
-        <h3>something about other</h3>
-      </section>
+        <div className="sections" id="contact">
+            <h1>Contact</h1>
+        </div>
     )
 }

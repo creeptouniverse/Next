@@ -1,5 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import Dark from './Dark.png'
+
 export default function Navbar(){
     return(
         <>
@@ -8,7 +10,8 @@ export default function Navbar(){
 
     <h1>CREEPTO UNIVERSE</h1>
     <div>
-<Image src="/Dark.png"></Image>
+        <Image src={Dark} width={100} height={100}></Image>
+
     </div>
 
     <h3>Sliding content with sticky tab nav</h3></div>
@@ -25,11 +28,11 @@ export default function Navbar(){
 </button>
 </div>
     <div className="fixed bottom-0 et-hero-tabs-container">
-      <a className="et-hero-tab" href="#tab-es6">Information</a>
-      <a className="et-hero-tab" href="#tab-flexbox">Members</a>
-      <a className="et-hero-tab" href="#tab-react">Roadmap</a>
-      <a className="et-hero-tab" href="#tab-angular">About Us</a>
-      <a className="et-hero-tab" href="#tab-other">Contact</a>
+      <a className="et-hero-tab" href="#information">Information</a>
+      <a className="et-hero-tab" href="#members">Members</a>
+      <a className="et-hero-tab" href="#roadmap">Roadmap</a>
+      <a className="et-hero-tab" href="#aboutus">About Us</a>
+      <a className="et-hero-tab" href="#contact">Contact</a>
 
       <span className="et-hero-tab-slider"></span>
     </div>
